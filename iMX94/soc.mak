@@ -38,7 +38,7 @@ LPDDR_FW_VERSION ?= _v202409
 SPL_A55_IMG ?= u-boot-spl.bin
 AP_IMG ?= ap.bin
 V2X ?= $(OEI)
-KERNEL_DTB ?=imx943-19x19-evk.dtb  #Used by kernel authentication
+KERNEL_DTB ?= imx943-evk.dtb  #Used by kernel authentication
 KERNEL_DTB_ADDR ?= 0x93000000
 KERNEL_ADDR ?= 0x90400000
 
