@@ -146,7 +146,7 @@ clean:
 
 dtb = evk.dtb
 $(dtb):
-	./$(DTB_PREPROC) $(PLAT)-evk.dtb $(dtb) $(dtbs)
+	./$(DTB_PREPROC) $(PLAT).dtb $(dtb) $(dtbs)
 
 u-boot.itb: $(dtb)
 	./$(PAD_IMAGE) $(TEE)
